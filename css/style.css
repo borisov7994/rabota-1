@@ -1,0 +1,998 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(//fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Vollkorn;
+    src: url(//fonts/Vollkorn-Regular.ttf)
+}
+
+
+.header {
+    padding: 25px 0;
+    height: 106px;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    
+    right: 83.51%;
+    margin-top: 18px;
+    
+}
+.menu {
+    margin-left: 832px;
+    margin-top: 41px;
+}
+.menu ul {
+    list-style: none;
+    display:  flex;
+}
+.menu-item {
+    margin-right: 34px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+
+text-transform: uppercase;
+
+color: #404040;
+}
+.menu-item:hover {
+    color: #000000;
+}
+.menu-item:active {
+    color: #272020;
+}
+.menu-item a {
+    font-size: 12px;
+    color: #030305;
+    text-decoration: none;
+}
+.what {
+    background-image: url("../img/IMAGE.png");
+    height: 391px;
+    background-position: center;
+    background-size: cover;
+    padding: 150px 0 154px 0;
+}
+.main-h1 {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 44px;
+line-height: 55px;
+text-align: center;
+color: rgba(255, 255, 255, 0.81);
+text-transform: uppercase;
+padding-top: 105px;
+border-bottom: 1px solid white;
+border-bottom: 25px;
+}
+.text-what {
+ font-family: 'Vollkorn';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+color: rgba(255, 255, 255, 0.81);
+margin-top: 25px;
+text-align: center;
+}
+.line {
+   margin-left: 45.74%;
+   margin-top: 28px;
+}
+.yeloow {
+    background-color: #FEFEC9;
+    height: 289px;
+}
+.yeloow-text {
+    font-family: 'Vollkorn';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #47474F;
+    padding-top: 60px;
+}
+.button-yellow {
+    width: 159px;
+height: 53px;
+text-align: center;
+margin-top: 40px;
+margin-left: 44.51%;
+background-color: #FEFEC9;
+font-family: 'Vollkorn';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+}
+.h2-3 {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 36px;
+text-align: center;
+text-transform: uppercase;
+color: #333333;
+padding-top: 79px;
+}
+.cards-3 {
+    display: flex;
+    margin-left: 240px;
+    align-items: center;
+    margin-top: 73px;
+    width: 319px;
+    
+}
+.img-cards {
+    width: 300px;
+    height: 219px;
+    background-color:#F5F5F5 ;
+    align-items: center;
+    margin-right: 20px;
+}
+.img-3 {
+    padding-top: 50px;
+    padding-left: 86px;
+}
+.text-card1 {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+text-transform: uppercase;
+color: #333333;
+text-align: center;
+padding-top: 38px;
+}
+.text-card2 {
+    font-family: 'Vollkorn';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+/* or 147% */
+color: #333333;
+text-align: center;
+padding-top: 20px;
+} 
+.cards-sect-3 {
+height: 625px;
+}
+.recent {
+    background-color: #F5F5F5;
+    height: 1470px;
+}
+.h2-allcard {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+    text-align: center;
+text-transform: uppercase;
+color: #333333;
+padding-top: 79px;
+}
+.palka {
+    width: 80px;
+   margin-left: 47.74%;
+   margin-right: 45.74%;
+   margin-top: 28px;
+}
+.all-cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 250px;
+    margin-top: 43px;
+}
+.cadsi {
+    width: 300px;
+    margin-right: 20px;
+    height: 384px;
+    background-color: #FFFFFf;
+    margin-bottom: 20px;
+}
+.name-card {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+text-transform: uppercase;
+color: #333333;
+margin-top: 19px;
+}
+.main-text-card {
+    font-family: 'Vollkorn';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+color: #333333;
+margin-top: 4px;
+}
+.h2-team {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 36px;
+text-align: center;
+text-transform: uppercase;
+color: #333333;
+padding-top: 79px;
+}
+.team {
+    height: 616px;
+}
+.team-cards {
+    display: flex;
+    margin-top: 43px;
+    margin-left: 240px;
+
+}
+.pepl {
+    height: 339px;
+    margin-right: 20px;
+
+}
+.name-team {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+text-align: center;
+text-transform: uppercase;
+margin-top: 20px;
+
+color: #333333;
+}
+.text-team {
+    font-family: 'Vollkorn';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+margin-top: 6px;
+
+text-align: center;
+
+color: #333333;
+}
+.icon {
+    margin-top: 18px;
+    margin-left: 61px;
+    margin-right: 6px;
+}
+.icon1 {
+    margin-top: 18px;
+    margin-left: 26px;
+    margin-right: 6px;
+}
+.comment {
+    height: 511px;
+    background-color: #F5F5F5;
+}
+.zapat {
+    padding-top: 69px;
+    margin-left: 47.84%;
+}
+.com-2 {
+    display:  flex;
+    
+}
+.com {
+    width: 446.5px;
+    height: 215px;
+   margin-top: 67px;
+    text-align: center;
+
+}
+.com1 {
+    border-right:rgba(0, 0, 0, 0.04) solid 1px ;
+    margin-left: 273.5px;
+}
+.text-com {
+    font-family: 'Vollkorn';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33px;
+/* or 127% */
+color: #333333;
+text-align: center;
+}
+.name-com {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #ABABAB;
+}
+.img-com {
+    padding-top: 24px;
+    padding-bottom: 10px;
+}
+.lets {
+    background-image: url("../img/IMAGE-wall.png");
+    background-size: cover;
+    background-position: center;
+    height: 517px;
+}
+.name-lets {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+    /* identical to box height, or 157% */
+    
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 79px;
+    color: #333333; 
+}
+.cards-lets {
+    display: flex;
+    margin-left: 240px;
+    align-items: center;
+}
+.card-lets {
+    text-align: center;
+    width: 320px;
+    margin-top: 86px;
+
+}
+.name-card-lets {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #333333;
+}
+.text-card-lets {
+    font-family: 'Vollkorn';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px;
+/* identical to box height, or 129% */
+margin-top: 20px;
+text-align: center;
+
+color: #212121;
+}
+.img-lets {
+    margin-bottom: 26px;
+}
+.end {
+    background: #000000;
+    height: 639px;
+}
+.price-form {
+    padding-top: 69px;
+    margin-left: 438px;
+
+}
+.one {
+font-family: 'Vollkorn';
+font-style: italic;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px;
+color: #FFFFFF;
+width: 564px;
+height: 57px;
+background-color: rgba(255, 255, 255, 0.18);
+border-radius: 0px;
+}
+.two {
+width: 564px;
+height: 57px;
+background-color: rgba(255, 255, 255, 0.2);
+font-family: 'Vollkorn';
+font-style: italic;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px;
+color: #FFFFFF;
+border-radius: 0px;
+}
+.three {
+    width: 564px;
+    height:127px ;
+   
+    font-family: 'Vollkorn';
+font-style: italic;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px;
+color: #FFFFFF;
+border-radius: 0px;
+background-color: rgba(255, 255, 255, 0.2);
+}
+.button {
+    font-family: 'Vollkorn';
+font-style: italic;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px;
+/* identical to box height, or 129% */
+text-align: center;
+color: #8BCAC3;
+height: 53px;
+width: 210px;
+background-color: #000000;
+border: 1px solid #8BCAC3;
+margin-left: 614px;
+margin-top: 22px;
+}
+.img-end {
+    margin-left: 699px;
+    margin-top: 37px;
+
+}
+.text-end {
+    font-family: 'Vollkorn';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height, or 147% */
+
+text-align: center;
+
+color: rgba(255, 255, 255, 0.4);
+
+margin-top: 14px;
+}
+.button-yellow:hover {
+    background-color: #ebc908;
+}
+.button-yellow:active {
+    background-color: #817428;
+    cursor: pointer;
+}
+.button:hover {
+    border: 4px solid #a4f1e8;
+    background-color: #404040;
+}
+.button:active {
+    background-color: #a08f8f;
+    cursor: pointer;
+}
+@media(max-width:2000px) {
+.navbar-toggler {
+    display: none;
+} }
+
+@media (max-width:390px) 
+{
+    .navbar-toggler {
+        display: block;
+        margin-left: 132px;
+    }
+    .logo {
+        margin-left: 21px;
+    }
+    
+    .menu {
+        flex-direction: column;
+        display: none;
+        margin-left: 8px;
+    }
+    .main-h1 {
+        margin-top: -150px;
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 19.8056px;
+line-height: 25px;
+/* identical to box height, or 125% */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+    }
+   
+    .what {
+        height: 30px;
+        width: 390px;
+    }
+    .line {
+        justify-content: center;
+        margin-left: 150px;
+    }
+    .yeloow {
+        height: 169px;
+    }
+    .yeloow-text {
+        font-family: 'Vollkorn';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 15px;
+color: #47474F;
+padding-top: 16px;
+text-align: center;
+    }
+    .button-yellow {
+        width: 92.98px;
+height: 30.99px;
+font-family: 'Vollkorn';
+font-style: normal;
+font-weight: 400;
+font-size: 9.3564px;
+line-height: 12px;
+text-align: center;
+color: #47474F;
+margin-top: 22.6px;
+margin-left: 146.77px;
+    }
+    .cards-sect-3 {
+        height: 245px;
+        width: 390px;
+    }
+    .h2-3 {
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+text-transform: uppercase;
+color: #333333;
+padding-top: 9px;
+    }
+    .cards-3 {
+        width: 390px;
+        margin: 0;
+        padding: 0;
+        
+
+    }
+    .card {
+        margin-top: 15px;
+        height: 174px;
+        width: 120px;
+        margin-left: 4px;
+        margin-right: 8px; 
+    }
+    .img-cards {
+
+        height: 80px;
+        width: 85px;
+        padding-left: 33px;
+    padding-top: 21px;  
+    align-items: center;
+    margin-right: 20px;
+     
+    
+}
+    .img-3 {
+        width: 52px;
+        padding: 0;
+        margin: 0;
+        
+    }
+    .text-card1 {
+        padding-top: 16px;
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 8px;
+line-height: 8px;
+/* identical to box height, or 103% */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #333333;
+    }
+    .text-card2 {
+        padding-top: 17px;
+        font-family: 'Vollkorn';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 9px;
+
+        text-align: center;
+        color: #333333;
+    }
+    .recent {
+        height: 930px;
+        width: 390px;
+    }
+    .h2-allcard {
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 13.8501px;
+line-height: 14px;
+text-align: center;
+text-transform: uppercase;
+color: #333333;
+padding-top: 25px;
+    }
+    .palka {
+        margin-top: 11px;
+        margin-left: 155px;
+        justify-content: center;
+    }
+    .all-cards {
+        flex-wrap: wrap;
+       margin-left: 70px;
+    }
+    .cardsi1 {
+        width: 118px;
+        height: 151px;
+       margin-left: 67px;
+       margin-top: -30px;
+       margin-right: 180px;
+    }
+    .img-cardsi {
+        width: 118.31px;
+height: 118.31px;
+    }
+    .name-card {
+        margin-top: 4.5px;
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 6.30979px;
+line-height: 8px;
+/* identical to box height, or 125% */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #333333;
+    }
+    .main-text-card {
+        margin-top: 2px;
+        font-family: 'Vollkorn';
+font-style: normal;
+font-weight: 400;
+font-size: 5.52107px;
+line-height: 8px;
+/* identical to box height, or 143% */
+
+text-align: center;
+
+color: #333333;
+    }
+    .cadsi {
+        width: 119px;
+        height: 150px;
+       
+
+    }
+    .team {
+        width: 390px;
+        height: 480px;
+    }
+    .h2-team {
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 15px;
+/* identical to box height, or 124% */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #333333;
+padding-top: 15px;
+
+    }
+    .pepl {
+        width: 121.5px;
+        height: 175px;
+       margin-left: 49px;
+       margin-top: 30px;
+        
+
+    }
+    .people {
+        width: 113.52px;
+height: 113.52px;
+
+    }
+    .icon1 {
+        margin: 0;
+        margin-left: 35px;
+    }
+    .team-cards {
+        flex-wrap: wrap;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    .name-team {
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 8.25628px;
+line-height: 10px;
+/* identical to box height, or 125% */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #333333;
+    }
+   .text-team {
+    font-family: 'Vollkorn';
+font-style: normal;
+font-weight: 400;
+font-size: 7.22424px;
+line-height: 10px;
+/* identical to box height, or 143% */
+
+text-align: center;
+
+color: #333333;
+   }
+   .icon {
+    margin:0;
+    padding: 0;
+    margin-left: 35px;
+
+   }
+   .icons {
+    width: 15px;
+   }
+   .comment {
+    width: 390px;
+    height: 140px;
+   }
+   .zapat {
+    width: 17px;
+    margin: 0;
+    padding: 0;
+    margin-left: 187px;
+    padding-top: 15px;
+   }
+   .text-com {
+    font-family: 'Vollkorn';
+font-style: normal;
+font-weight: 400;
+font-size: 9.31025px;
+line-height: 12px;
+/* or 127% */
+
+text-align: center;
+
+color: #333333;
+   }
+   .name-com {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 5.01321px;
+line-height: 7px;
+/* identical to box height, or 143% */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #ABABAB;
+   }
+   .img-com {
+    width: 30px;
+padding: 0;
+padding-top: 9px;
+   }
+   .com-2 {
+    padding: 0;
+    margin: 0;
+   }
+   .com{
+    margin: 0;
+    padding: 0;
+    margin-top: 12px;
+    height: 79px;
+   }
+   .lets {
+    width: 390px;
+    height: 154px;
+   }
+   .name-lets {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* or 120% */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #333333;
+padding: 0;
+padding-top: 15px;
+   }
+   .palka {
+    width: 22px;
+    margin: 0;
+    margin-left: 47.3%;
+   }
+   .img-lets {
+    margin: 0;
+    width: 16px;
+    margin-top: 12px;
+    margin-bottom: 7.14px;
+   }
+   .name-card-lets {
+   
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 7px;
+line-height: 5px;
+/* or 110% */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #333333;
+
+   }
+.text-card-lets {
+    font-family: 'Vollkorn';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 6px;
+    /* or 121% */
+    
+    text-align: center;
+    
+    color: #212121;
+    margin: 0;
+    margin-top: 8px;
+    padding-top: 2px;
+}
+.cards-lets {
+    margin: 0;
+    padding: 0;
+}
+.card-lets {
+    margin: 0;
+    padding: 0;
+}
+.img-img-lets {
+    width: 4px;
+}
+.end {
+    width: 390px;
+    height: 210px;
+}
+.price-form {
+    margin: 0;
+    padding: 0;
+    width: 153px;
+    height: 103px;
+    border: 0px;
+margin-left: 118.63px;
+padding-top: 23.86px;
+}
+.price-input {
+    font-family: 'Vollkorn';
+font-style: italic;
+font-weight: 400;
+font-size: 5.8795px;
+line-height: 8px;
+/* or 129% */
+border: 0px;
+margin: 0;
+
+
+color: #FFFFFF;
+}
+.one {
+    width: 153px;
+    height: 20px;
+}
+.two {
+    width: 153px;
+    height: 20px;
+    margin-top:-25px;
+}
+.three {
+    width: 153px;
+    height: 44px;
+   
+}
+.button {
+    margin: 0;
+    width: 73.32px;
+    height: 18.33px;
+    font-family: 'Vollkorn';
+font-style: italic;
+font-weight: 400;
+font-size: 5.8795px;
+line-height: 8px;
+/* identical to box height, or 129% */
+
+text-align: center;
+
+color: #8BCAC3;
+margin-left: 157.5px;
+margin-top: 15px;
+}
+.img-end {
+    width: 14.87px;
+    margin: 0;
+    margin-left: 187px;
+    margin-top: 13px;
+}
+.text-end {
+    font-family: 'Vollkorn';
+font-style: normal;
+font-weight: 400;
+font-size: 5.18779px;
+line-height: 8px;
+/* identical to box height, or 147% */
+
+text-align: center;
+
+color: rgba(255, 255, 255, 0.4);
+margin: 0;
+}
+.button-burger {
+    width: 20px;
+}
+
+.navbar-toggler {
+    border: 0px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+}
